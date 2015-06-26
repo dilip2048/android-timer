@@ -8,6 +8,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemClock;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -37,6 +38,7 @@ public class MainActivity extends Activity {
         timerValue = (TextView) findViewById(R.id.timerValue);
 
         startButton = (Button) findViewById(R.id.startButton);
+
 
         startButton.setOnClickListener(new View.OnClickListener() {
 
