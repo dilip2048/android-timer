@@ -72,6 +72,7 @@ public class MainActivity extends Activity {
                 timeSwapBuff = 0L;
                 updatedTime = 0L;
                 startTime=SystemClock.uptimeMillis();
+                
                 //customHandler.postDelayed(updateTimerThread, 0);
                 int mins=0,secs=0,milliseconds=0;
                 timerValue.setText("" + mins + ":"
